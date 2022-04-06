@@ -1,0 +1,122 @@
+
+
+.main-header {
+    display: grid;
+    grid-auto-flow: column;
+    z-index: 2;
+    box-shadow: 0 .2rem .2rem #efefef;
+    padding-bottom: 0rem;
+    /* width: fit-content; */
+    position: relative;
+  }
+
+  .header-brand {
+    display: grid;
+    padding: 0.625rem;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-content: center;
+  }
+
+  .nav-action{
+    display: grid;
+    gap: 0.125rem;
+    justify-content: end;
+    align-content: end;
+    margin-right: 1rem;
+  }
+
+  .nav-links {
+    display: grid;
+    font-size: 1.25rem;
+    grid-auto-flow: column;
+    justify-content: end;
+    text-decoration: none;
+    margin-left: 6.25rem;
+    
+    margin-bottom: 1rem;
+  }
+
+  .nav-links:hover {
+    text-decoration: none;
+  }
+
+  .nav-links:hover {
+    text-decoration: none;
+  }
+
+  .nav-action-links {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-bottom: 0.625rem;
+    margin-right: 0.625rem;
+  }
+
+  .action-link {
+    text-decoration: none;
+  }
+
+  .action-link:hover {
+    text-decoration: none;
+  }
+
+  .nav-link{
+    display: flex;
+    margin-left: 1.25rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+
+  .nav-action > button img {
+    height: 3rem;
+    width: 3rem;
+    color: crimson;
+  }
+
+  .cart {
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    background-color: var(--background-color);
+  }
+
+  .header-brand a > img {
+    height: 6rem;
+    width: 14rem;
+  }
+
+  @media screen and (max-width: 780px) {
+    .nav-links {
+      margin-left: 4rem;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-action-links {
+      padding-bottom: 0rem;
+      margin-bottom: 0rem;
+    }
+    .header-brand a > img {
+      height: 5rem;
+      width: 7.5rem;
+    }
+    .nav-links {
+        display: block;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .cart {
+      height: 4rem;
+      width: 8rem;
+      border: none;
+    }
+    .nav-action > button img {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  }

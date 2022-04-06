@@ -1,0 +1,34 @@
+.app-wrapper{
+    margin-left: 10rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.app-form {
+    display: flex;
+    flex-direction : column;
+}
+
+.form-button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.input-error {
+    color: red;
+    font-family: "Dosis", "Arial";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .app-wrapper{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+  }

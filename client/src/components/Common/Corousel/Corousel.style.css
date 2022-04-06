@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    .slider-control-centerleft {
+        display: none;
+    }
+    .slider-control-centerright {
+        display: none;
+    }
+    .slider-control-bottomcenter {
+        bottom: -72px !important;
+    }
+}
+.slider-control-bottomcenter {
+    bottom: 72px;
+}
